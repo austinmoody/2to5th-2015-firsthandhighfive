@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>First Hand High Five!</title>
+  <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+</head>
+
+<body>
+  <h1>Hello, <span id="userName"></span></h1>
+  <h2>How fast can you high five the First Hand?!</h2>
+  <h3>Your current fastest: <span id="currentFastest"></span></h3>
+
+  <form id="startHighFives">
+    <p><input type="button" id="startButton" value="Start!" onclick="startPlay()"/> (Time this round: <span id="thisRound"></span>)</p>
+  </form>
+
+    <div id="austin"></div>
+    <script src="highfive.js"></script>
+</body>
+</html>
